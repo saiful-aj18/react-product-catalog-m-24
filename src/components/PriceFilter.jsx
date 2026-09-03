@@ -17,7 +17,7 @@ function PriceFilter({
           placeholder="Min"
           value={minPrice}
           onChange={(e) => setMinPrice(e.target.value)}
-          className="w-full rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-slate-200 outline-none placeholder:text-slate-500 focus:border-teal-500"
+          className="w-full rounded-lg border border-slate-900 bg-slate-900/60 px-4 py-3 text-slate-200 outline-none placeholder:text-slate-500 focus:border-teal-500"
         />
 
         <input
@@ -26,7 +26,7 @@ function PriceFilter({
           placeholder="Max"
           value={maxPrice}
           onChange={(e) => setMaxPrice(e.target.value)}
-          className="w-full rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-slate-200 outline-none placeholder:text-slate-500 focus:border-teal-500"
+          className="w-full rounded-lg border border-slate-900 bg-slate-900/60 px-4 py-3 text-slate-200 outline-none placeholder:text-slate-500 focus:border-teal-500"
         />
       </div>
     </div>

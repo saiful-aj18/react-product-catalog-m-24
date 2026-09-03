@@ -4,9 +4,9 @@ function ProductCard({ product }) {
   return (
     <Link
       to={`/product/${product.id}`}
-      className="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900 transition duration-300 hover:-translate-y-1 hover:border-teal-500"
+      className="group overflow-hidden rounded-xl border border-slate-900 bg-slate-900/30 transition duration-300 hover:-translate-y-1 hover:border-teal-500"
     >
-      <div className="h-60 overflow-hidden bg-slate-800">
+      <div className="h-60 overflow-hidden bg-slate-950">
         <img
           src={product.thumbnail}
           alt={product.title}
@@ -15,7 +15,7 @@ function ProductCard({ product }) {
       </div>
 
       <div className="p-5">
-        <p className="mb-2 text-sm capitalize text-cyan-400">
+        <p className="mb-2 text-sm capitalize text-teal-400">
           {product.brand || product.category}
         </p>
 

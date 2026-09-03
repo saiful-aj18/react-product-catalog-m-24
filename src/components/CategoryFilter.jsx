@@ -12,7 +12,7 @@ function CategoryFilter({
       <select
         value={selectedCategory}
         onChange={(e) => setSelectedCategory(e.target.value)}
-        className="w-full rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-slate-200 outline-none focus:border-teal-500"
+        className="w-full rounded-lg border border-slate-900 bg-slate-900/60 px-4 py-3 text-slate-200 outline-none focus:border-teal-500"
       >
         <option value="all">All Categories</option>
 
