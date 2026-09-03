@@ -17,7 +17,7 @@ function Hero() {
 
         <a
           href="#products"
-          className="mt-8 inline-block rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-400"
+          className="mt-8 inline-block rounded-lg bg-teal-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-teal-400"
         >
           Explore Products
         </a>
